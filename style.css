@@ -41,6 +41,17 @@ section {
     animation: 2s upDown infinite;
 }
 
+.about-exp-item {
+    margin-top: 32px;
+}
+
+.about-exp-item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
 @keyframes upDown {
     0% {
         transform: translateY(0);
