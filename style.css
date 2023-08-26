@@ -139,6 +139,23 @@ section::before {
     content: "Web Project";
 }
 
+.contact {
+    padding-bottom: 128px;
+}
+
+.contact-form {
+    border: 1px solid black;
+    padding: 64px 32px;
+}
+
+.contact::before {
+    content: 'Contact';
+}
+
+.form-label {
+    font-weight: 720;
+}
+
 @keyframes upDown {
     0% {
         transform: translateY(0);
