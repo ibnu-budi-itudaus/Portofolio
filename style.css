@@ -43,6 +43,7 @@ section::before {
    width: 250px;
    height: 250px;
    border-radius: 50%;
+  
 }
 
 .home h1 {
@@ -154,6 +155,18 @@ section::before {
 
 .form-label {
     font-weight: 720;
+}
+
+@media only screen and (max-width: 758px) {
+    .home img {
+        width: 50%;
+    }
+} 
+
+@media only screen and (max-width: 576px) {
+    section::before {
+        font-size: 64px;
+    }
 }
 
 @keyframes upDown {
