@@ -81,19 +81,54 @@ section::before {
     display: none;
 }
 
-.work::before {
-    content: "Work";
+.exp::before {
+    content: "Experience";
 }
 
-.work-img {
+.exp-item {
+    margin-top: 32px;
+}
+
+.exp-item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.exp-item-detail {
+    display: none;
+}
+
+
+
+.work::before {
+    content: "Projects";
+}
+
+#work {
+    padding-top: 138px;
+}
+
+
+
+/* .work-img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "work-1 work-2" "work-3 work-3";
     gap: 16px;
-}
+} */
+
+/* .work-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
 
 .work-img img {
-    width: 100%;
+    width: 500px;
+   height: 278px;
+    position: relative;
 }
 
 .work-img-item {
@@ -157,15 +192,49 @@ section::before {
     font-weight: 720;
 }
 
+@media only screen and (max-width: 776px) {
+    .home img {
+        width: 50%;
+    }
+
+    .work-img img {
+        width: 50%;
+    
+    }
+
+    .work-content {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+} 
+
 @media only screen and (max-width: 758px) {
     .home img {
         width: 50%;
+    }
+
+    .work-img img {
+        width: 50%;
+    
+    }
+
+    .work-content {
+        padding-left: 0px;
+        margin-left: 0px;
     }
 } 
 
 @media only screen and (max-width: 576px) {
     section::before {
         font-size: 64px;
+    }
+    .work-img img {
+        width: 50%;
+    }
+
+    .work-content {
+        padding-left: 0px;
+        margin-left: 0px;
     }
 }
 
