@@ -128,7 +128,7 @@ section::before {
 .work-img img {
     width: 500px;
    height: 278px;
-    position: relative;
+    
 }
 
 .work-img-item {
@@ -214,7 +214,7 @@ section::before {
     }
 
     .work-img img {
-        width: 50%;
+        width: 100%;
     
     }
 
@@ -229,7 +229,7 @@ section::before {
         font-size: 64px;
     }
     .work-img img {
-        width: 50%;
+        width: 100%;
     }
 
     .work-content {
